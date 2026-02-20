@@ -1,5 +1,3 @@
-import re
-
 def password_strength(password):
     score=0
 
@@ -43,3 +41,4 @@ def password_strength(password):
     
 password=input("Enter Password: ")
 print("Password Strength:", password_strength(password))
+
